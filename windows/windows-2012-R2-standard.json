@@ -26,6 +26,7 @@
                 "floppy/drivers/virtio-win-0.1.102/viostor/w8.1/amd64/*",
                 "floppy/drivers/virtio-win-0.1.102/NetKVM/w8.1/amd64/*",
                 "floppy/common/*",
+                "floppy/scripts/*",
                 "floppy/windows-2012-R2-standard/*"
             ],
 
@@ -46,15 +47,11 @@
       {
           "type": "windows-shell",
           "scripts": [
-              "scripts/unlimited-password-expiration.bat",
-              "scripts/enable-rdp.bat",
-              "scripts/uac-disable.bat",
-              "scripts/disablewinupdate.bat",
-              "scripts/disable-hibernate.bat",
-              "scripts/firewall-open-ping.bat",
-              "scripts/firewall-open-rdp.bat"
-
-          ]
+            "scripts/enable-rdp.bat",
+            "scripts/disablewinupdate.bat",
+            "scripts/disable-hibernate.bat",
+            "scripts/firewall-open-rdp.bat"
+            ]
       }
     ]
 }
